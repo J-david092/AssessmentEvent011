@@ -3,7 +3,12 @@
 <head>
 	<title>GAC Assessment</title>
 	<meta charset="utf-8" />
+	<meta name="description" content="Free sports news">
+	<meta name="keywords" content="Sports, Basketball, Baseball, Football">
+	<meta name="author" content="Javier Mejia, Marco Morachis">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style2.css">
+		<script type="text/javascript" src="javascript\js1.js"></script>
 </head>
 
 <body class="body">
@@ -18,7 +23,7 @@
 			<img style="height:40px; image-orientation:right"; src="images\share-2.svg">
 		</a>
 	</aside>
-			<p><br><br><a href="index.html">Ball Sports Network</a></p>
+			<p id="top"><br><br><a href="index.html">Ball Sports Network</a></p>
 			<p style="color:#FFFFFF; font-size:25px">About Us and Info</p>
 	</header>
 	<header class="pageHeader">
@@ -74,16 +79,16 @@
 		<aside class="top-sidebar">
 			<h2>Our Social Media Accounts</h2>
 			<a href="https://www.facebook.com/Ball-Sports-Network-102994878615636" target="_blank">
-						<img src="images\facebook.png" height="50%" width="50%">
+				<img onmouseover="newImage()" onmouseout="face()" src="images\facebook.png" height="50%" width="50%" id="myImg">
 			</a>
 			<a href="https://www.instagram.com/ball.sports.network/" target="_blank">
-			      <img src="images\instagram.png" height="50%" width="50%">
-					</a>
+				<img onmouseover="newImage2()" onmouseout="face2()" src="images\instagram.png" height="50%" width="50%" id="myImg2">
+			</a>
 		</aside>
   </div>
 	<footer class="pageFooter">
 		<aside class="top-top-sidebar1">
-		<a href="index.html">
+		<a href="#top">
 			<img style="height:38px; image-orientation:middle"; src="images\logo_small_icon_only_inverted.png">
 		</a>
 	</aside>
